@@ -19,3 +19,7 @@ Better approach would be to make use of the Dockerfile since `tensorflow-cpu` ha
 ```bash
 python exploit.py 127.0.0.1 6666
 ```
+
+## Acknowledgments
+
+[Splint Gitbook](https://splint.gitbook.io/cyberblog/security-research/tensorflow-remote-code-execution-with-malicious-model)
