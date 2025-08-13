@@ -12,6 +12,8 @@ This is done by exploiting how layers in keras work. Specifically, by using Lamb
 python -m pip install -r requirements.txt
 ```
 
+Better Approach would be to make use of the Dockerfile since `tensorflow-cpu` has dependency issues with different platforms.
+
 ## Usage
 
 ```bash
