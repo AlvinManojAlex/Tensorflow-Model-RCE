@@ -14,6 +14,19 @@ python -m pip install -r requirements.txt
 
 Better approach would be to make use of the Dockerfile since `tensorflow-cpu` has dependency issues with different platforms.
 
+```bash
+docker build -t tf-rce .
+docker run -it tf-rce
+```
+
+Save the `exploit.py` file in the container and run it.
+
+You can copy the model to your local machine by running the following
+
+```bash
+docker cp <docker_container_id>:/code/exploit.h5 .
+```
+
 ## Usage
 
 ```bash
